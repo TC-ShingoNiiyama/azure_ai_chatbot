@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: #ffffff;
+    font-family: "M PLUS 2", -apple-system, BlinkMacSystemFont
+        sans-serif;
+}
+
+#root {
+    height: 100%;
+}

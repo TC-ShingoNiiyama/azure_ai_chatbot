@@ -1,0 +1,91 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "clientSecret": {
+      "value": "${AZURE_APP_CLIENT_SECRET}"
+    },
+    "clientId": {
+      "value": "${AZURE_APP_CLIENT_ID}"
+    },
+    "authUrl": {
+      "value": "${AZURE_APP_AUTH_URL}"
+    },
+    "environmentName": {
+      "value": "${AZURE_ENV_NAME}"
+    },
+    "location": {
+      "value": "${AZURE_LOCATION}"
+    },
+    "resourceGroupName": {
+      "value": "${AZURE_RESOURCE_GROUP}"
+    },
+    "isPrivateNetworkEnabled": {
+      "value": true
+    },
+    "principalId": {
+      "value": "${AZURE_PRINCIPAL_ID}"
+    },
+    "ipAddressRange": {
+      "value": ["165.225.96.122","52.139.243.237"]
+    },
+    "ipAddressRangeSlot": {
+      "value": ["165.225.96.122","39.110.214.202","52.139.243.237"]
+    },
+    "openAiServiceName": {
+      "value": "${AZURE_OPENAI_EMB_DEPLOYMENT}"
+    },
+    "openAiEmbDeploymentName": {
+      "value": "${AZURE_OPENAI_EMB_MODEL_NAME}"
+    },
+    "openAiEmbModelName": {
+      "value": "${AZURE_OPENAI_EMB_MODEL_NAME}"
+    },
+    "openAiEmbEndPoint": {
+      "value": "${AZURE_OPENAI_EMB_ENDPOINT}"
+    },
+    "openAiEmbApiKey": {
+      "value": "${AZURE_OPENAI_EMB_API_KEY}"
+    },
+    "openAiServiceId": {
+      "value": "${AZURE_OPENAI_SERVICE_ID}"
+    },
+    "openAiApiKey": {
+      "value": "${AZURE_OPENAI_API_KEY}"
+    },
+    "openAiResourceGroupName": {
+      "value": "${AZURE_OPENAI_RESOURCE_GROUP}"
+    },
+    "openAiSkuName": {
+      "value": "S0"
+    },
+    "searchServiceName": {
+      "value": "${AZURE_SEARCH_SERVICE}"
+    },
+    "searchServiceResourceGroupName": {
+      "value": "${AZURE_SEARCH_SERVICE_RESOURCE_GROUP}"
+    },
+    "searchServiceSkuName": {
+      "value": "standard"
+    },
+    "storageAccountName": {
+      "value": "${AZURE_STORAGE_ACCOUNT}"
+    },
+    "cosmondbAccountName": {
+      "value": "${AZURE_COSMOSDB_ACCOUNT}"
+    },
+    "resourceSuffix": {
+      "value": "${AZURE_RESOURCE_SUFFIX}"
+    },
+    
+    "storageResourceGroupName": {
+      "value": "${AZURE_STORAGE_RESOURCE_GROUP}"
+    },
+    "appInsightsInstrumentationKey": {
+      "value": "${AZURE_APPINSIGHTS_INSTRUMENTATION_KEY}"
+    },
+    "isAuthEnabled": {
+      "value": "${AZURE_APP_AUTH_ENABLED}"
+    }
+  }
+}
